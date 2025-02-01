@@ -33,9 +33,9 @@ Continue working in KEG. Repository: https://github.com/BuddhiLW/keg
 
 Repository: https://github.com/BuddhiLW/elm-keg
 
-*** DONE Create an *elm-pages* website that is hydrated by *KEG*
-**** DONE Learn the basics of *elm-pages*
-**** DONE Addapt to *KEG* and *elm-pages* to be plug-ble
+*** DONE Create an elm-pages website that is hydrated by *KEG*
+**** DONE Learn the basics of elm-pages
+**** DONE Addapt to KEG and elm-pages to be plug-ble
 **** DONE Stylize the webside
 **** DONE Test if the plugging actually works and looks good
 *** TODO Write introduction/index page for the website;
