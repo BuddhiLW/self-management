@@ -45,16 +45,6 @@ CI/CD Pipeline
 
 * PROJ Video processing vid2vid pipeline real-time processing; :project:
 
-#+BEGIN: kanban :match "project" :mirror nil :depth 1
-| TODO                                                    | PROJ                                                                         | LOOP | STRT | WAIT | HOLD | IDEA | DONE | KILL | [ ] | [-] | [?] | [X] | OKAY | YES | NO |
-|---------------------------------------------------------+------------------------------------------------------------------------------+------+------+------+------+------+------+------+-----+-----+-----+-----+------+-----+----|
-|                                                         | [[file:README.org::*Self-management with Org Mode - track myself; quantify myself; use pomodoro;][Self-management with Org Mode - track myself; quantify myself; use pomodoro;]] |      |      |      |      |      |      |      |     |     |     |     |      |     |    |
-|                                                         | [[file:README.org::*KEG;][KEG;]]                                                                         |      |      |      |      |      |      |      |     |     |     |     |      |     |    |
-| [[file:README.org::*Captions video-automation;][Captions video-automation;]]                              |                                                                              |      |      |      |      |      |      |      |     |     |     |     |      |     |    |
-| [[file:README.org::*Video processing vid2vid pipeline real-time processing;][Video processing vid2vid pipeline real-time processing;]] |                                                                              |      |      |      |      |      |      |      |     |     |     |     |      |     |    |
-#+END:
-
-
 
 #+BEGIN: kanban :layout ("..." . 30) :scope nil
 | TODO                           | PROJ                           | DOING                    | DONE                           | CANCELED |
