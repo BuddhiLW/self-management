@@ -53,6 +53,10 @@ CI/CD Pipeline
 |                                |                                |                          | [[file:README.org::*Setting up Kanban inside Org-mode][Setting up Kanban inside Or...]] |          |
 |                                |                                | [[file:README.org::*Breaking-down *Captions*][Breaking-down *Captions*]] |                                |          |
 |                                | [[file:README.org::*Captions video-automation;][Captions video-automation;]]     |                          |                                |          |
+| [[file:README.org::*Decide on *tools*][Decide on *tools*]]              |                                |                          |                                |          |
+| [[file:README.org::*Generate timestamps][Generate timestamps]]            |                                |                          |                                |          |
+| [[file:README.org::*Translate timestamps][Translate timestamps]]           |                                |                          |                                |          |
+| [[file:README.org::*Generate TTS based on timestamps][Generate TTS based on times...]] |                                |                          |                                |          |
 |                                | [[file:README.org::*KEG;][KEG;]]                           |                          |                                |          |
 |                                | [[file:README.org::*The CLI][The CLI]]                        |                          |                                |          |
 |                                |                                |                          | [[file:README.org::*YAML front-matter parsing;][YAML front-matter parsing;]]     |          |
@@ -61,9 +65,9 @@ CI/CD Pipeline
 | [[file:README.org::*Make the existing scripts internal-commands to =KEG=][Make the existing scripts i...]] |                                |                          |                                |          |
 | [[file:README.org::*Activate these commands automatically upon finishing editing files][Activate these commands aut...]] |                                |                          |                                |          |
 |                                | [[file:README.org::***ELM-KEG**][**ELM-KEG**]]                    |                          |                                |          |
-|                                |                                |                          | [[file:README.org::*Create an *elm-pages* website that is hydrated by *KEG*][Create an *elm-pages* websi...]]   |          |
-|                                |                                |                          | [[file:README.org::*Learn the basics of *elm-pages*][Learn the basics of *elm-pa...]] |          |
-|                                |                                |                          | [[file:README.org::*Addapt to *KEG* and *elm-pages* to be plug-ble][Addapt to *KEG* and *elm-pa...]]   |          |
+|                                |                                |                          | [[file:README.org::*Create an elm-pages website that is hydrated by *KEG*][Create an elm-pages website...]] |          |
+|                                |                                |                          | [[file:README.org::*Learn the basics of elm-pages][Learn the basics of elm-pages]]  |          |
+|                                |                                |                          | [[file:README.org::*Addapt to KEG and elm-pages to be plug-ble][Addapt to KEG and elm-pages...]] |          |
 |                                |                                |                          | [[file:README.org::*Stylize the webside][Stylize the webside]]            |          |
 |                                |                                |                          | [[file:README.org::*Test if the plugging actually works and looks good][Test if the plugging actual...]] |          |
 | [[file:README.org::*Write introduction/index page for the website;][Write introduction/index pa...]] |                                |                          |                                |          |
