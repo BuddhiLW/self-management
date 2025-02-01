@@ -1,0 +1,83 @@
+#+title: Self management for productivity
+#+TODO: TODO(t) PROJ(p) DOING(g) | DONE(d) CANCELED(c)
+Measure, track, self-motivate myself, in a enterprise-grade flow. Also, psychologically, scientifically based, manner.
+
+Let's start with Kanbanizing my progress.
+
+I will chose =org-kanban=.
+
+Let's use first-level headers to list the projects
+
+* PROJ Self-management with Org Mode - track myself; quantify myself; use pomodoro; :project:
+** DONE Setting up Kanban inside Org-mode :task:
+** DOING Breaking-down *Captions* :task:
+* PROJ Captions video-automation; :project:
+** TODO Decide on *tools* :task:analysis:
+** TODO Generate timestamps :task:feature:
+** TODO Translate timestamps :task:feature:
+** TODO Generate TTS based on timestamps :extra:feature:
+
+* PROJ KEG; :project:
+** PROJ The CLI :app:
+Continue working in KEG. Repository: https://github.com/BuddhiLW/keg
+
+*** DONE YAML front-matter parsing;
+*** DONE Scripts to auto-generate a front-matter;
+*** TODO Auto-generate a front-matter;
+**** TODO Make the existing scripts internal-commands to =KEG=
+**** TODO Activate these commands automatically upon finishing editing files
+
+** PROJ **ELM-KEG** :app:
+
+**ELM-KEG**: the template for a KEG, **indexable** by *LLMs*, *SEO-optimized*, website;
+
+Repository: https://github.com/BuddhiLW/elm-keg
+
+*** DONE Create an *elm-pages* website that is hydrated by *KEG*
+**** DONE Learn the basics of *elm-pages*
+**** DONE Addapt to *KEG* and *elm-pages* to be plug-ble
+**** DONE Stylize the webside
+**** DONE Test if the plugging actually works and looks good
+*** TODO Write introduction/index page for the website;
+*** TODO Deploy website;
+*** TODO Automatically pull (KEG) changes to the website;
+CI/CD Pipeline
+
+* PROJ Video processing vid2vid pipeline real-time processing; :project:
+
+#+BEGIN: kanban :match "project" :mirror nil :depth 1
+| TODO                                                    | PROJ                                                                         | LOOP | STRT | WAIT | HOLD | IDEA | DONE | KILL | [ ] | [-] | [?] | [X] | OKAY | YES | NO |
+|---------------------------------------------------------+------------------------------------------------------------------------------+------+------+------+------+------+------+------+-----+-----+-----+-----+------+-----+----|
+|                                                         | [[file:README.org::*Self-management with Org Mode - track myself; quantify myself; use pomodoro;][Self-management with Org Mode - track myself; quantify myself; use pomodoro;]] |      |      |      |      |      |      |      |     |     |     |     |      |     |    |
+|                                                         | [[file:README.org::*KEG;][KEG;]]                                                                         |      |      |      |      |      |      |      |     |     |     |     |      |     |    |
+| [[file:README.org::*Captions video-automation;][Captions video-automation;]]                              |                                                                              |      |      |      |      |      |      |      |     |     |     |     |      |     |    |
+| [[file:README.org::*Video processing vid2vid pipeline real-time processing;][Video processing vid2vid pipeline real-time processing;]] |                                                                              |      |      |      |      |      |      |      |     |     |     |     |      |     |    |
+#+END:
+
+
+
+#+BEGIN: kanban :layout ("..." . 30) :scope nil
+| TODO                           | PROJ                           | DOING                    | DONE                           | CANCELED |
+|--------------------------------+--------------------------------+--------------------------+--------------------------------+----------|
+|                                | [[file:README.org::*Self-management with Org Mode - track myself; quantify myself; use pomodoro;][Self-management with Org Mo...]] |                          |                                |          |
+|                                |                                |                          | [[file:README.org::*Setting up Kanban inside Org-mode][Setting up Kanban inside Or...]] |          |
+|                                |                                | [[file:README.org::*Breaking-down *Captions*][Breaking-down *Captions*]] |                                |          |
+|                                | [[file:README.org::*Captions video-automation;][Captions video-automation;]]     |                          |                                |          |
+|                                | [[file:README.org::*KEG;][KEG;]]                           |                          |                                |          |
+|                                | [[file:README.org::*The CLI][The CLI]]                        |                          |                                |          |
+|                                |                                |                          | [[file:README.org::*YAML front-matter parsing;][YAML front-matter parsing;]]     |          |
+|                                |                                |                          | [[file:README.org::*Scripts to auto-generate a front-matter;][Scripts to auto-generate a ...]] |          |
+| [[file:README.org::*Auto-generate a front-matter;][Auto-generate a front-matter;]]  |                                |                          |                                |          |
+| [[file:README.org::*Make the existing scripts internal-commands to =KEG=][Make the existing scripts i...]] |                                |                          |                                |          |
+| [[file:README.org::*Activate these commands automatically upon finishing editing files][Activate these commands aut...]] |                                |                          |                                |          |
+|                                | [[file:README.org::***ELM-KEG**][**ELM-KEG**]]                    |                          |                                |          |
+|                                |                                |                          | [[file:README.org::*Create an *elm-pages* website that is hydrated by *KEG*][Create an *elm-pages* websi...]]   |          |
+|                                |                                |                          | [[file:README.org::*Learn the basics of *elm-pages*][Learn the basics of *elm-pa...]] |          |
+|                                |                                |                          | [[file:README.org::*Addapt to *KEG* and *elm-pages* to be plug-ble][Addapt to *KEG* and *elm-pa...]]   |          |
+|                                |                                |                          | [[file:README.org::*Stylize the webside][Stylize the webside]]            |          |
+|                                |                                |                          | [[file:README.org::*Test if the plugging actually works and looks good][Test if the plugging actual...]] |          |
+| [[file:README.org::*Write introduction/index page for the website;][Write introduction/index pa...]] |                                |                          |                                |          |
+| [[file:README.org::*Deploy website;][Deploy website;]]                |                                |                          |                                |          |
+| [[file:README.org::*Automatically pull (KEG) changes to the website;][Automatically pull (KEG) ch...]] |                                |                          |                                |          |
+|                                | [[file:README.org::*Video processing vid2vid pipeline real-time processing;][Video processing vid2vid pi...]] |                          |                                |          |
+#+END:
